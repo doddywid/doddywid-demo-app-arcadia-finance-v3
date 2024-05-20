@@ -1,7 +1,7 @@
 # **Arcadia Finance Demo App v3**
 
 This repository provides updated version of distributed app demo called "Arcadia Finance".
-The app is origal work of Matt from here https://gitlab.com/arcadia-application.
+The app is original work of Matt from here https://gitlab.com/arcadia-application.
 
 The added feature of this Arcadia Finance v3 are
 
@@ -12,7 +12,7 @@ The added feature of this Arcadia Finance v3 are
   
 **2. Added data reset function**\
    ![alt text](https://github.com/doddywid/doddywid-demo-app-arcadia-finance-v3/blob/main/arcadia-reset-all.png)\
-   Originally, all app data are either stored as json or file in mainapp, app3, and backend containers. After performing several test, a data reset will be required to restore application data state to initial (e.g. account balance, stock portfolio, email referal, transaction history). This reset function also crucial for using traffic generator against the application.
+   Originally, all app data are either stored as json or file in mainapp, app3, and backend containers. After performing several test, a data reset will be required to restore application data state to initial (e.g. account balance, stock portfolio, email referal, transaction history). This reset function is crucial when using traffic generator against the application.
    You can modify reset username and password in /var/www/html/trading/reset_all.php file in "mainapp" container.
 
 
