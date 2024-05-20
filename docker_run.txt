@@ -8,6 +8,7 @@ Example of docker run command
 
 The command follows ordinary docker command structure.
 The required environment variables are
+|------|---------------------------|---------------------|---------------------------------------------------------------------------------------------------------------|
 |  No  | Environment Variable Name | Sample Value        | Description                                                                                                   |
 |------|---------------------------|---------------------|---------------------------------------------------------------------------------------------------------------|
 |  1   | arcadia_appsite           | aws2                | Site name on where the particular microservices is deployed.                                                  |
