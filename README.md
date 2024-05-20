@@ -12,7 +12,9 @@ The added feature of this Arcadia Finance v3 are
    Originally, the domain and protocol for communicating between microservices is hardcoded inside php files. Now, you can set them through environment variables.
    Below are example of running with custom evironment variables
 
+```python
    docker run -dit -h mainapp --restart=always --name=mainapp -e arcadia_appsite="aws2" -e arcadia_proto="https://" -e arcadia_domain="arcadia.f5poc.id" -p 80:80 doddywid/arcadia-mainapp:v3
    docker run -dit -h app2 --restart=always --name=app2 -e arcadia_appsite="aws2" -e arcadia_proto="https://" -e arcadia_domain="arcadia.f5poc.id" -p 81:80 doddywid/arcadia-app2:v3
    docker run -dit -h app3 --restart=always --name=app3 -e arcadia_appsite="aws2" -e arcadia_proto="https://" -e arcadia_domain="arcadia.f5poc.id" -p 82:80 doddywid/arcadia-app3:v3
    docker run -dit -h backend --restart=always --name=backend -e arcadia_appsite="aws2" -e arcadia_proto="https://" -e arcadia_domain="arcadia.f5poc.id" -p 83:80 doddywid/arcadia-backend:v3
+```
