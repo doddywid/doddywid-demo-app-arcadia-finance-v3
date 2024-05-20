@@ -14,10 +14,3 @@ The required environment variables are
 |  2   | arcadia_domain            | arcadia.example.com | The domain name, used by containers to comunicate to other microservices.                                     |
 |  3   | arcadia_proto             | https://            | The protocol, can be either "https://" or "http://", used by containers to comunicate to other microservices. |
 
-1. arcadia_appsite="aws2" -e arcadia_proto="https://" -e arcadia_domain="arcadia.f5poc.id"
-
-| Column 1 Header | Column 2 Header | Column 3 Header |
-| --------------- | --------------- | --------------- |
-| Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
-| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
-| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
