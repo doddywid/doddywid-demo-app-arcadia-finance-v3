@@ -18,4 +18,4 @@ The added feature of this Arcadia Finance v3 are
    docker run -dit -h app3 --restart=always --name=app3 -e arcadia_appsite="aws2" -e arcadia_proto="https://" -e arcadia_domain="arcadia.f5poc.id" -p 82:80 doddywid/arcadia-app3:v3
    docker run -dit -h backend --restart=always --name=backend -e arcadia_appsite="aws2" -e arcadia_proto="https://" -e arcadia_domain="arcadia.f5poc.id" -p 83:80 doddywid/arcadia-backend:v3
 ```
-   Please refer to https://github.com/doddywid/doddywid-demo-app-arcadia-finance-v3/blob/main/docker_run.md for more details.
+   Please refer to [docker_run.md](https://github.com/doddywid/doddywid-demo-app-arcadia-finance-v3/blob/main/docker_run.md) for more details.
