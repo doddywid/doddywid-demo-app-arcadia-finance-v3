@@ -1,3 +1,5 @@
+# **Arcadia Finance Demo App v3**
+
 This repository provides updated version of distributed app demo called "Arcadia Finance".
 The app is origal work of Matt from here https://gitlab.com/arcadia-application.
 
