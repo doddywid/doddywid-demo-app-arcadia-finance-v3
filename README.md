@@ -14,6 +14,7 @@ The added feature of this Arcadia Finance v3 are
    You can modify reset username and password in /var/www/html/trading/reset_all.php file in "mainapp" container.
    
 **3. Dynamic domain and protocol support**
+   
    Originally, the domain and protocol for communicating between microservices is hardcoded inside php files. Now, you can set them through environment variables.
    Below are example of running with custom evironment variables
 ```python
