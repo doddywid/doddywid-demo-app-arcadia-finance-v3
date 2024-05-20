@@ -30,7 +30,7 @@ The added feature of this Arcadia Finance v3 are
 
 
 
-Docker images are available in public repository of DockerHub as below
+Docker images are available in public repository on DockerHub as below
 | Container Name | Image Name 
 |----------------|---------------------------
 | mainapp        | doddywid/arcadia-mainapp:v3
