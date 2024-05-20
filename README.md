@@ -7,7 +7,7 @@ The added feature of this Arcadia Finance v3 are
    This information is crucial to demonstrate distributed application, where each of microservices might be served from different sites.
    
 2. Added data reset.
-   ![alt text](https://github.com/doddywid/doddywid-demo-app-arcadia-finance-v3/blob/main/arcadia-reset-all.jpg)
+   ![alt text](https://github.com/doddywid/doddywid-demo-app-arcadia-finance-v3/blob/main/arcadia-reset-all.png)
    Originally, all app data are either stored as json or file in mainapp, app3, and backend microservices. After performing several test, a data reset will be required to restore application data state to initial (e.g. account balance, stock portfolio, email referal, transaction history). This reset function also crucial for using traffic generator against the application.
    You can modify reset username and password in /var/www/html/trading/reset_all.php file in "mainapp" container.
    
