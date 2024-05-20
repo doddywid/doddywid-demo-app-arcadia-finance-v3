@@ -23,7 +23,8 @@ The added feature of this Arcadia Finance v3 are
    Please refer to [docker_run.md](https://github.com/doddywid/doddywid-demo-app-arcadia-finance-v3/blob/main/docker_run.md) for more details on required environment variables.
 
 
-Docker image list 
+
+Docker images are available in public repository of DockerHub as below
 | Container Name | Image Name 
 |----------------|---------------------------
 | mainapp        | doddywid/arcadia-mainapp:v3
