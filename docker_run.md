@@ -1,3 +1,5 @@
+The docker run (or K8s run/manifest file, respectively), now needs to have several environment variables set.
+
 Example of docker run command 
 ```python
    docker run -dit -h mainapp --restart=always --name=mainapp -e arcadia_appsite="aws2" -e arcadia_proto="https://" -e arcadia_domain="arcadia.example.com" -p 80:80 doddywid/arcadia-mainapp:v3
