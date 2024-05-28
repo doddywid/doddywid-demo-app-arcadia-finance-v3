@@ -27,6 +27,7 @@ The added feature of this Arcadia Finance v3 are
 ```
    Please refer to [docker_run.md](https://github.com/doddywid/doddywid-demo-app-arcadia-finance-v3/blob/main/docker_run.md) for more details on required environment variables.
 
+Note: Arcadia v3 assumes that communication from client-app and app-app is via single front-end domain. Otherwise, please check on v4.
 
 
 
