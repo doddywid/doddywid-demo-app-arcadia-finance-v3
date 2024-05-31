@@ -3,6 +3,8 @@
 This repository provides updated version of distributed app demo called "Arcadia Finance".
 The app is original work of Matt from here https://gitlab.com/arcadia-application.
 
+The new Arcadia Finance Demo App is v6, please find it [here](https://github.com/doddywid/doddywid-demo-app-arcadia-finance-v6).
+
 The added feature of this Arcadia Finance v3 are
 
 **1. Added microservices site name (please refer to red and green circled text on screenshoot below)**\
